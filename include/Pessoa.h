@@ -7,12 +7,16 @@ using std::string
 
 class Pessoa 
 {
-protected:
+private:
     int registroId;
     string nome;
     int contato;
 
 public:
-    void 
+    Pessoa(int contato, int registroId, std::string nome);
+    void exibirDadosPessoa();
+
 
 };
+
+#endif
