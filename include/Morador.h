@@ -2,20 +2,19 @@
 #define MORADOR_H
 
 #include "Pessoa.h"
-using std::string
+#include <string>
+using std::string;
 
-class Morador : public Pessoa  
+class Morador : public Pessoa
 {
 private:
     string apartamento;
-    char classes;
-    bool inad; // Inadiplente
-    bool abrir; // Abrir chamado
-    
+    char classeApartamento;
+    bool inadiplente;
+
 public:
-    
+    Morador (int id, const string &nome, const string &email, const string &apartamento, char classeApartamento, bool inadiplente);
 
 };
-
 
 #endif

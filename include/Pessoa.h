@@ -1,22 +1,23 @@
-// Classe base
 #ifndef PESSOA_H
 #define PESSOA_H
 
 #include <string>
-using std::string
+using std::string;
 
-class Pessoa 
+class Pessoa
 {
 private:
-    int registroId;
+    int id;
     string nome;
-    int contato;
+    string email;
 
 public:
-    Pessoa(int contato, int registroId, std::string nome);
-    void exibirDadosPessoa();
-
+    Pessoa(); // Construtor padrão
+    Pessoa(int id, const string &nome, const string &email); // Construtor
+    // Depois utilizar Getters e Setters
+    void display();
 
 };
+
 
 #endif

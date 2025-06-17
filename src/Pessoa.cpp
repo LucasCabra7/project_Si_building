@@ -1,12 +1,25 @@
 #include "Pessoa.h"
-#include string
-using std::string
+#include <iostream>
+using namespace std;
 
-// Criar construtor
+Pessoa::Pessoa()
+{
+    id = 0;
+    nome = "";
+    email = "";
+};
 
-void Pessoa::exibirDadosPessoa() {
-    cout << "--- Dados da Pessoa ---" << endl;
+Pessoa::Pessoa(const int id, const string &nome, const string &email)
+{
+    this->id = id;
+    this->nome = nome;
+    this->email = email;
+
+};
+
+void Pessoa::display()
+{
+    cout << "ID: " << id << endl;
     cout << "Nome: " << nome << endl;
-    cout << "ID: " << registroId << endl;
-    cout << "Contato: " << contato << endl;
-}
+    cout << "Email: " << email << endl;
+};

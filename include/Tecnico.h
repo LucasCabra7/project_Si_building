@@ -2,22 +2,21 @@
 #define TECNICO_H
 
 #include "Pessoa.h"
-using std::string
+#include <string>
+using std::string;
 
-class Tecnico : public Pessoa  
+class Tecnico : public Pessoa
 {
 private:
     string especialidade;
     bool disponibilidade;
-    string os; // Ordem de serviço
-    int nota;
-    bool fechar; // Fechar chamado
-    string comentario;
-    
+    double nota;
+
 public:
+    Tecnico(int id, const string &nome, const string &email, const string &especialidade); // Construtor padrão que inicializa disponibilidade false e nota com 0.
+    Tecnico(int id, const string &nome, const string &email, const string &especialidade, bool disponibilidade, double nota);
 
 
 };
-
 
 #endif
