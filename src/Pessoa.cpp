@@ -4,22 +4,22 @@ using namespace std;
 
 Pessoa::Pessoa()
 {
-    id = 0;
+    idRegistro = 0;
     nome = "";
     email = "";
 };
 
-Pessoa::Pessoa(const int id, const string &nome, const string &email)
+Pessoa::Pessoa(const int idRegistro, const string &nome, const string &email)
 {
-    this->id = id;
+    this->idRegistro = idRegistro;
     this->nome = nome;
     this->email = email;
 
 };
 
-void Pessoa::display()
+void Pessoa::displayInfo() const
 {
-    cout << "ID: " << id << endl;
+    cout << "ID: " << idRegistro << endl;
     cout << "Nome: " << nome << endl;
     cout << "Email: " << email << endl;
 };
