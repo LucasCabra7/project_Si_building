@@ -86,32 +86,42 @@ https://github.com/Monkius-Maximus/Projeto-EDOO-25.1.git
 
 ## Galeria de Projetos
 
-![Tela de config](/Images/G-Inicial-com-config.jpg)  
+ ![tela inicial](https://github.com/user-attachments/assets/52e220ca-be4f-4277-963a-ec6175d42d94)
+ 
 *Legenda: Tela inicial do programa*
 
+![tela morador](https://github.com/user-attachments/assets/4475ca8c-3ad9-4f25-9f66-49029370e59f)
 
-![Tela do Morador](/Images/M-Tela-do-Morador.jpg)  
 *Legenda: Visão do Morador ao Iniciar*
 
+![morador ver os](https://github.com/user-attachments/assets/2a564335-3685-43bb-9620-6624b2f8baf6)
 
-![Abrir OS](/Images/M-Abrir-Os.jpg)  
+*Legenda: Visão do Morador ao Visualizar os apenas aos Seus Chamados*
+
+ ![abertura da os](https://github.com/user-attachments/assets/75c65e62-cfe2-4dca-a9f1-4ee7ad6f63f5)
+ 
 *Legenda: Visão do Morador para Abrir Ordem de Serviço*
 
 
-![Avaliar Os](/Images/M-Avaliar-Os.jpg)  
+![avaliar os](https://github.com/user-attachments/assets/6a2a962e-d0e4-4a44-b6f2-41acd9a17aef)
+
 *Legenda: Visão do Morador para avaliar o serviço*
 
 
-![Tela do Tecnico](/Images/T-Visão-do-Tecnico.jpg)  
+ ![tecnico](https://github.com/user-attachments/assets/c08d29df-af0b-49f2-bfac-7957cb44370f)
+
 *Legenda: Visão do Tecnico ao Iniciar*
 
-![Tela do Tecnico Os](/Images/T-Visualizar-Os.jpg)  
+ ![tecnico visualizar](https://github.com/user-attachments/assets/d59c994f-2173-42a0-b13d-173ff6d6c517)
+
 *Legenda: Visão do Tecnico ao Visualizar OS*
 
-![Tela do Tecnico Aceitar Os](/Images/T_Aceitar-OS.jpg)  
+  ![tecnico acietar os](https://github.com/user-attachments/assets/5f2cd715-07f7-4df5-9894-e27b9003d643)
+
 *Legenda: Visão do Tecnico para Aceitar Os*
 
-![Visualizar Chamados](/Images/T-Visualizar-Chamados.jpg)  
+ ![tecnico visualizar aceitados](https://github.com/user-attachments/assets/c1ff9850-4f98-4632-bb5f-e7785307533c)
+
 *Legenda: Visão do Tecnico para visualizar os chaamdos*
 
 ## 📎 Links Úteis
